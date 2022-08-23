@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+body{
+   background-color: aqua;
+    border: 2px rgb(12, 212, 219) solid;
+    overflow: hidden;
+   
+}
+
+.tank{
+    width: 96vw;
+  
+    border: 40px rgb(99, 56, 3) solid;
+    overflow: hidden;
+    height: 92vh;
+
+}
+
+#tank_Canvas{
+    
+    width: 100%;
+    z-index: 0;
+}
+

@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/mobile.css">
     <title>Document</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <div class = 'mobile' hidden>
+        <h1>Sorry tinkTanks is only avaiable on Desktop Or in FullScreen</h1>
+    </div>
+    <div class="tank" id="outterGlass">
+      <canvas id="tank_Canvas"></canvas>
+    </div>
 
-    <script type="module" src="./Tanks/scripts/app.js"></script>
-</body>
+    <script type="module" src="./scripts/app.js"></script>
+  </body>
 </html>
